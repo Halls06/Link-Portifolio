@@ -299,3 +299,95 @@ ul li a:hover {
   object-fit: contain;
   object-position: center;
 }
+/*Contact Section*/
+
+.color h1 {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  font-size: 1.8rem;
+}
+
+.color p {
+  color: #fff;
+}
+
+#contact {
+  background: var(--second-color);
+}
+
+.contact-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 360px;
+  margin-top: 4rem;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  font-size: 13px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  margin-bottom: 12px;
+}
+
+.contact-form form input::placeholder,
+.contact-for form textarea::placeholder {
+  color: var(--second-color);
+  letter-spacing: 1px;
+}
+
+.contact-form form textarea {
+  height: 200px;
+  resize: none;
+}
+
+.send-button {
+  max-width: 100px;
+  font-weight: 600;
+  background: var(--main-color);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.feedback {
+  color: #fff;
+}
+
+.app {
+  max-width: 360px;
+}
+
+.app h1 {
+  color: #fff;
+  font-size: 1.6rem;
+  margin: 5px 0 24px;
+}
+
+.app ion-icons {
+  color: var(--main-color);
+  font-size: 45px;
+  margin-right: 10px;
+}
+
+.app ion-icons:hover {
+  transform: translate(-10px);
+  transition: 0.5s;
+}
+
+.copyright {
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  background: var(--second-color);
+}
