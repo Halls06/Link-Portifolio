@@ -406,5 +406,19 @@ ul li a:hover {
   }
   .home-text h1 {
     font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+  .home-imgmax {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+  section {
+    padding: 50px 20px;
+  }
+  .about-content,
+  .services-content,
+  .work-contact,
+  .contact-content {
+    flex-direction: column;
   }
 }
